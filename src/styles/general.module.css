@@ -1,0 +1,181 @@
+.size{
+    position: static;
+    width: 100vw;
+    height: 100vh;
+}
+
+:root{
+    --black-color: #000000;
+    --dark-blue-color: #14213d;
+    --yellow-color: #fca311;
+    --gray-color: #e5e5e5;
+    --white-color: #ffffff;
+}
+
+.menu{
+    padding: 2rem;
+    position: fixed;
+}
+
+.menu svg{
+    scale: 1.5;
+    color: var(--white-color);
+}
+
+.content_list{
+    z-index: 2;
+    position: fixed;
+    background-color: var(--dark-blue-color-hover);
+    top: 0%;
+    left: 0%;
+    margin: auto;
+    width: 0rem; /*Cambio de barra lateral*/
+    height: 100vh;
+    text-align: center;
+    overflow-x: hidden;
+    transition: all .5s ease-in-out;
+}
+
+@keyframes movebarreturn {
+    from{
+        width: 15rem;
+    }
+    to{
+        width: 4rem;
+    }
+
+}
+
+.group_bar{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 2rem;
+}
+
+
+.btn_close{
+    justify-items: end;
+    background: none;
+    border: none;
+    scale: 1.4;
+}
+
+.list_options{
+    display: grid;
+    
+    height: 80vh;
+    list-style: none;
+    justify-items: start;
+    margin-left: 1.3rem;
+    align-items: center;
+}
+
+.list_options li{
+    display: flex;
+    color: var(--white-color);
+    gap: 2rem;
+    align-items: center;
+}
+
+.list_options li:hover{
+    color: var(--yellow-color);
+}
+
+
+@media (min-width: 768px){
+
+    .menu{
+        padding: 5rem;
+        position: fixed;
+    }
+
+    .menu svg{
+        
+        scale: 4;
+        color: var(--white-color);
+    }
+}
+
+@media (min-width: 1024px){
+
+    .menu{
+        display: none;
+        padding: 2rem;
+        position: fixed;
+    }
+    
+    .menu svg{
+        scale: 1.5;
+        color: var(--white-color);
+    }
+    
+    .content_list{
+        
+        background-color: var(--dark-blue-color);
+        box-shadow: 1px 1px 30px #000000;
+        top: 0%;
+        left: 0%;
+        margin: auto;
+        width: 20rem; /*Cambio de barra lateral*/
+        height: 100vh;
+        text-align: center;
+        
+        transition: all .5s ease-in-out;
+    }
+    
+    @keyframes movebarreturn {
+        from{
+            width: 15rem;
+        }
+        to{
+            width: 4rem;
+        }
+    
+    }
+    
+    .group_bar{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        gap: 20px;
+        margin-top: 9rem;
+    }
+
+    .group_bar img{
+        scale: 1.5;
+    }
+    
+    
+    .btn_close{
+        justify-items: end;
+        background: none;
+        border: none;
+        scale: 1.4;
+    }
+    
+    .list_options{
+        display: grid;
+        height: 80vh;
+        list-style: none;
+        justify-items: start;
+        margin-left: 3rem;
+        align-items: center;
+    }
+    
+    .list_options li{
+        display: flex;
+        color: var(--white-color);
+        gap: 2rem;
+        font-size: 1.8rem;
+        align-items: center;
+    }
+    
+    .list_options li:hover{
+        color: var(--yellow-color);
+    }
+    
+}

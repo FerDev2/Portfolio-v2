@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+:root{
+    --black-color: #000000;
+    --dark-blue-color: #14213d;
+    --dark-blue-color-hover: #1a2e57;
+    --yellow-color: #fca311;
+    --yellow-color-hover: #c58318;
+    --gray-color: #e5e5e5;
+    --white-color: #ffffff;
+    
+}
+
+html{
+    font-size: 62.5%;
+    background-color: var(--dark-blue-color);
+    
+}

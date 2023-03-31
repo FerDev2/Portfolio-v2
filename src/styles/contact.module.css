@@ -1,0 +1,571 @@
+.content{
+    display: grid;
+    grid-template-rows: .1fr 1fr;
+    gap: 2rem;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.content h3{
+    justify-self: center;
+    align-self: center;
+    font-size: 2rem;
+    color: var(--yellow-color);
+}
+
+.formula{
+    display: grid;
+}
+
+.formula form{
+    font-size: 2rem;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+.nombre{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    width: 30rem;
+    align-items: center;
+}
+
+.nombre label{
+    text-justify: start;
+    font-size: 1.5rem;
+    color: var(--white-color);
+}
+
+.nombre input{
+    width: max-content;
+    border: none;
+    outline: 0;
+    background: var(--gray-color);
+    border-radius: 1rem;
+    height: 3rem;
+    padding: 1rem;
+}
+
+.email{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    width: 30rem;
+    align-items: center;
+    
+}
+
+.email label{
+    text-justify: start;
+    font-size: 1.5rem;
+    color: var(--white-color);
+}
+
+.email input{
+    
+    width: max-content;
+    border: none;
+    outline: 0;
+    background: var(--gray-color);
+    border-radius: 1rem;
+    height: 3rem;
+    padding: 1rem;
+}
+
+.asunto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    width: 30rem;
+    align-items: center;
+    
+}
+
+.asunto label{
+    text-justify: start;
+    font-size: 1.5rem;
+    color: var(--white-color);
+}
+
+.asunto input{
+    
+    width: max-content;
+    border: none;
+    outline: 0;
+    background: var(--gray-color);
+    border-radius: 1rem;
+    height: 3rem;
+    padding: 1rem;
+}
+
+.text{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    width: 30rem;
+    align-items: center;
+    
+}
+
+.text label{
+    text-justify: start;
+    font-size: 1.5rem;
+    color: var(--white-color);
+}
+
+.text textarea{
+    
+    width: max-content;
+    border: none;
+    outline: 0;
+    background: var(--gray-color);
+    border-radius: 1rem;
+    height: 10rem;
+    padding: 1rem;
+}
+
+.formula form button{
+    border: none;
+    padding: 1rem;
+    width: 10rem;
+    border-radius: 1rem;
+    background-color: var(--yellow-color);
+}
+
+.formula form button:hover{
+    background-color: var(--yellow-color-hover);
+}
+
+.formula > div{
+    display: grid;
+    align-content: center;
+    gap: 5rem;
+    justify-content: center;
+}
+
+.cell{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    color: var(--white-color);
+    gap: 2rem;
+}
+
+.mail{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    color: var(--white-color);
+    gap: 2rem;
+}
+
+.linke{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    color: var(--white-color);
+    gap: 2rem;
+}
+
+.linke a{
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+@media (min-width: 768px){
+
+    .content{
+        display: grid;
+        grid-template-rows: .1fr 1fr;
+        gap: 2rem;
+        height: 100vh;
+        width: 100vw;
+        
+    }
+    
+    .content h3{
+        justify-self: center;
+        align-self: center;
+        font-size: 4rem;
+        color: var(--yellow-color);
+    }
+    
+    .formula{
+        display: grid;
+    }
+    
+    .formula form{
+        font-size: 4rem;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        
+    }
+    
+    .nombre{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        width: 50rem;
+        align-items: center;
+    }
+    
+    .nombre label{
+        text-justify: start;
+        font-size: 3rem;
+        color: var(--white-color);
+    }
+    
+    .nombre input{
+        width: 30rem;
+        border: none;
+        outline: 0;
+        background: var(--gray-color);
+        border-radius: 1rem;
+        height: 3rem;
+        padding: 2rem;
+    }
+    
+    .email{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        width: 50rem;
+        align-items: center;
+        
+    }
+    
+    .email label{
+        text-justify: start;
+        font-size: 3rem;
+        color: var(--white-color);
+    }
+    
+    .email input{
+        
+        width: 30rem;
+        border: none;
+        outline: 0;
+        background: var(--gray-color);
+        border-radius: 1rem;
+        height: 3rem;
+        padding: 2rem;
+    }
+    
+    .asunto{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        width: 50rem;
+        align-items: center;
+        
+    }
+    
+    .asunto label{
+        text-justify: start;
+        font-size: 3rem;
+        color: var(--white-color);
+    }
+    
+    .asunto input{
+        
+        width: 30rem;
+        border: none;
+        outline: 0;
+        background: var(--gray-color);
+        border-radius: 1rem;
+        height: 3rem;
+        padding: 2rem;
+    }
+    
+    .text{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        width: 50rem;
+        align-items: center;
+        
+    }
+    
+    .text label{
+        text-justify: start;
+        font-size: 3rem;
+        color: var(--white-color);
+    }
+    
+    .text textarea{
+        
+        width: 30rem;
+        border: none;
+        outline: 0;
+        background: var(--gray-color);
+        border-radius: 1rem;
+        height: 15rem;
+        padding: 2rem;
+    }
+    
+    .formula form button{
+        border: none;
+        padding: 2rem;
+        width: 20rem;
+        border-radius: 1rem;
+        background-color: var(--yellow-color);
+        font-size: 2rem;
+    }
+    
+    .formula form button:hover{
+        background-color: var(--yellow-color-hover);
+    }
+    
+    .formula > div{
+        display: grid;
+        align-content: center;
+        gap: 5rem;
+        justify-content: center;
+    }
+    
+    .cell{
+        font-size: 3rem;
+        display: flex;
+        align-items: center;
+        color: var(--white-color);
+        gap: 2rem;
+    }
+
+    .cell svg{
+        scale: 2;
+    }
+    
+    .mail{
+        font-size: 3rem;
+        display: flex;
+        align-items: center;
+        color: var(--white-color);
+        gap: 2rem;
+    }
+
+    .mail svg{
+        scale: 2;
+    }
+    
+    .linke{
+        font-size: 3rem;
+        display: flex;
+        align-items: center;
+        color: var(--white-color);
+        gap: 2rem;
+    }
+
+    .linke svg{
+        scale: 2;
+    }
+    
+    .linke a{
+        text-decoration: none;
+        color: var(--white-color);
+    }
+    
+}
+
+@media (min-width: 1024px){
+    
+    .content{
+        display: grid;
+        grid-template-rows: .1fr 1fr;
+        gap: 2rem;
+        height: 100vh;
+        width: 100vw;
+        justify-content:center;
+        
+    }
+    
+    .content h3{
+        justify-self: center;
+        align-self: center;
+        font-size: 4rem;
+        color: var(--yellow-color);
+    }
+    
+    .formula{
+        display: grid;
+        grid-template-columns: 1fr .5fr;
+        justify-items: end;
+        gap: 5rem;
+    }
+    
+    .formula form{
+        display: grid;
+        width: 40rem;
+        align-items: center;
+        
+        
+    }
+
+    .imgconta{
+        display: grid;
+        align-content: center;
+        gap: 5rem;
+        justify-content: end;
+        padding-right: 2rem;
+    }
+    
+    .nombre{
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 2rem;
+        width: 20rem;
+        align-items: center;
+    }
+    
+    .nombre label{
+        text-justify: start;
+        font-size: 1.5rem;
+        color: var(--white-color);
+    }
+    
+    .nombre input{
+        width: 30rem;
+        border: none;
+        outline: 0;
+        background: var(--gray-color);
+        border-radius: 1rem;
+        height: 3rem;
+        padding: 2rem;
+    }
+    
+    .email{
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 2rem;
+        width: 20rem;
+        align-items: center;
+        
+    }
+    
+    .email label{
+        text-justify: start;
+        font-size: 1.5rem;
+        color: var(--white-color);
+    }
+    
+    .email input{
+        
+        width: 30rem;
+        border: none;
+        outline: 0;
+        background: var(--gray-color);
+        border-radius: 1rem;
+        height: 3rem;
+        padding: 2rem;
+    }
+    
+    .asunto{
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 2rem;
+        width: 20rem;
+        align-items: center;
+        
+    }
+    
+    .asunto label{
+        text-justify: start;
+        font-size: 1.5rem;
+        color: var(--white-color);
+    }
+    
+    .asunto input{
+        
+        width: 30rem;
+        border: none;
+        outline: 0;
+        background: var(--gray-color);
+        border-radius: 1rem;
+        height: 3rem;
+        padding: 2rem;
+    }
+    
+    .text{
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 2rem;
+        width: 20rem;
+        align-items: center;
+        
+    }
+    
+    .text label{
+        text-justify: start;
+        font-size: 1.5rem;
+        color: var(--white-color);
+    }
+    
+    .text textarea{
+        
+        width: 30rem;
+        border: none;
+        outline: 0;
+        background: var(--gray-color);
+        border-radius: 1rem;
+        height: 15rem;
+        padding: 2rem;
+    }
+    
+    .formula form button{
+        border: none;
+        padding: 2rem;
+        width: 20rem;
+        border-radius: 1rem;
+        background-color: var(--yellow-color);
+        font-size: 2rem;
+    }
+    
+    .formula form button:hover{
+        background-color: var(--yellow-color-hover);
+    }
+    
+    
+    .cell{
+        font-size: 2rem;
+        display: flex;
+        color: var(--white-color);
+        gap: 2rem;
+    }
+
+    .cell svg{
+        scale: 1.5;
+    }
+    
+    .mail{
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        color: var(--white-color);
+        gap: 2rem;
+    }
+
+    .mail svg{
+        scale: 1.5;
+    }
+    
+    .linke{
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        color: var(--white-color);
+        gap: 2rem;
+    }
+
+    .linke svg{
+        scale: 1.5;
+    }
+    
+    .linke a{
+        text-decoration: none;
+        color: var(--white-color);
+    }
+}

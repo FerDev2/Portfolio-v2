@@ -1,0 +1,133 @@
+.content{
+    display: grid;
+    grid-template-rows: .2fr 1fr;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+
+.list{
+    display: grid;
+    gap: 2rem;
+    height: 60rem;
+}
+
+.list > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    background-color: var(--gray-color);
+    padding: 2rem;
+}
+
+.list > div:hover{
+    background-color: var(--yellow-color);
+}
+
+.list div > p{
+    color: var(--black-color);
+}
+
+.content h2{
+    font-size: 2rem;
+    align-self: center;
+    text-align: center;
+    color: var(--yellow-color);
+    
+    padding: 3rem;
+}
+
+@media (min-width: 768px){
+
+    .content{
+        display: grid;
+        grid-template-rows: .2fr 1fr;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+    }
+    
+    .list{
+        display: grid;
+        align-self: center;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+        height: 30rem;
+        width: 90vw;
+    }
+    
+    .list > div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 1rem;
+        background-color: var(--gray-color);
+        padding: 2rem;
+    }
+    
+    .list > div:hover{
+        background-color: var(--yellow-color);
+    }
+    
+    .list div > p{
+        color: var(--black-color);
+    }
+    
+    .content h2{
+        font-size: 4rem;
+        align-self: center;
+        text-align: center;
+        color: var(--yellow-color);
+        padding-top: 5rem;
+    }    
+
+}
+
+@media (min-width: 1024px){
+
+    .content{
+        display: grid;
+        grid-template-rows: .2fr 1fr;
+        width: 100vw;
+        height: 100vh;
+        padding-left: 21rem;
+        justify-content: center;
+    }
+    
+    .list{
+        display: grid;
+        align-self: center;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+        height: 30rem;
+        width: 70vw;
+    }
+    
+    .list > div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 1rem;
+        background-color: var(--gray-color);
+        padding: 2rem;
+    }
+    
+    .list > div:hover{
+        background-color: var(--yellow-color);
+    }
+    
+    .list div > p{
+        color: var(--black-color);
+    }
+    
+    .content h2{
+        font-size: 4rem;
+        align-self: center;
+        text-align: center;
+        color: var(--yellow-color);
+        padding-top: 5rem;
+    }   
+}
+
+
